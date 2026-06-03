@@ -3,13 +3,13 @@
 A two-blade Darrieus vertical-axis wind turbine (VAWT) of the curved-blade
 "egg-beater" type, designed in FreeCAD and analyzed with Double Multiple
 Streamtube (DMST) theory. The central finding of the project is that this
-rotor's solidity is too high for DMST to produce valid results — established by
+rotor's solidity is too high for DMST to produce valid results, established by
 having two independent solvers (a from-scratch MATLAB implementation and the
 validated QBlade tool) diverge in the same way.
 
 ## What this project is
 
-I designed the rotor in FreeCAD, then set out to predict its performance with
+This was a project I decided to revisit. I designed the rotor in FreeCAD back in my senior year of high school, then set out to predict its performance with
 DMST theory. I first wrote a DMST solver from scratch in MATLAB to learn the
 method; it diverged to non-physical power coefficients. To test whether that was
 my coding error or something inherent to the problem, I rebuilt the analysis in
