@@ -46,18 +46,6 @@ MATLAB solver and QBlade show this. Solidity (Nc/R) here is ~0.45; low-solidity
 VAWTs where DMST works well are typically ~0.1-0.2, and ~0.3-0.4 is the
 documented onset of streamtube breakdown.
 
-## Repository contents
-
-```
-darrieus-turbine-dmst/
-├── Darrieus_Motor_Design.FCStd   # FreeCAD rotor design
-├── darrieus_writeup.docx         # Full writeup (design, both analyses, finding)
-├── first_principles_solver/      # Hand-written MATLAB DMST (learning exercise)
-│   └── darrieus_simulation.m
-├── results/                      # QBlade plots: Cp vs TSR, induction factor
-├── LICENSE
-└── README.md
-```
 
 ## The two solvers
 
@@ -81,9 +69,6 @@ not the implementation.
 
 ## Next steps
 
-- Confirm the true equatorial radius from the CAD model. The radius is inferred;
-  a larger true radius lowers the solidity and could bring the rotor back into
-  DMST's valid range. This is the first thing to check.
 - Analyze with a higher-fidelity method (vortex model or CFD) that does not rely
   on the streamtube momentum balance that fails here.
 - Optionally explore a lower-solidity design (smaller chord or larger radius) and
