@@ -25,8 +25,8 @@ The full story is in the writeup (`darrieus_writeup.docx`).
 |-----------|-------|--------|
 | Blade count | 2 | Confirmed from CAD model |
 | Chord | 0.067 m | Measured from airfoil part |
-| Blade height | 1.0 m | Inferred from part extents |
-| Max radius | 0.30 m | Inferred — equatorial (widest) radius |
+| Blade height | 1.0 m | Confirmed from CAD model |
+| Max radius | 0.30 m | Confirmed from CAD model |
 | Airfoil | NACA 0018 | Symmetric, standard for VAWT blades |
 | Solidity (Nc/R) | ~0.45 | High — at/above DMST's reliable limit |
 
