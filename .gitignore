@@ -1,0 +1,14 @@
+# MATLAB
+*.asv
+*.m~
+*.mat
+slprj/
+*.autosave
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
